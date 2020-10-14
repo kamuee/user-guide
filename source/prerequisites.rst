@@ -75,24 +75,6 @@ kamuee は、以下の環境で動作することが確認されています。
 + DPDK 18.11.2 (x86_64-nehalem-linuxapp-gcc)
 + DPDK 19.02.0 (arm64-armv8a-linuxapp-gcc)
 
-|ic02| |la02|
-
-    + libpci, libkmod開発パッケージについて
-
-    **GPL違反している可能性があります**
-
-        libpci, libkvm ともKamuee の実行形式バイナリに static リンクされるよう
-        になっているため、実行ホストには libpci, libkvm の実行時パッケージは必
-        ずしも必要ありません。
-
-        ビルドの際には、libpci-dev libkvm-dev のパッケージが構築ホストに必要です
-        （デバイス関連の機能が libpci, libkvm のパッケージのライブラリ関数を利用
-        しているため）。
-
-        .. code-block:: none
-
-           apt install libpci-dev libkvm-dev
-
 本パッケージが前提とする関連ソフトウェア
 -----------------------------------------------------
 
