@@ -1,0 +1,37 @@
+﻿
+.. アイコン用ラベル
+.. 文字は laXX, 画像はicXX （XX）は数字で、記載。（５文字以上にする場合は gencmdtxt.pyの修正が必要）
+.. dicicon.py にparam.py でのタグとのマッピングを定義すること
+
+.. |la01| replace:: \（メモ）\
+.. |la02| replace:: \（注意）\
+.. |la03| replace:: \ワンポイント・アドバイス\
+.. |la04| replace:: \ヒント\
+
+
+.. |ic03| image:: ./images/icon-advice.png
+    :scale: 5
+
+.. |ic04| image:: ./images/icon-hint.png
+    :scale: 5
+
+
+.. |ic01| image:: ./images/pencil.png
+    :scale: 5
+
+.. |ic02| image:: ./images/caution.png
+    :scale: 5
+
+
+
+.. only:: latex
+
+    .. |ic01| image:: ./images/pencil.eps
+        :scale: 5
+
+    .. |ic02| image:: ./images/caution.eps
+        :scale: 5
+
+
+
+
